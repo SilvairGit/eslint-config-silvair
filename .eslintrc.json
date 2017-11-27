@@ -237,5 +237,21 @@
       "inside"
     ],
     "yoda": "error"
-  }
+  },
+  "overrides": [
+    {
+      "files": ["*.test.js"],
+      "excludedFiles": "node_modules/*",
+      "globals": {
+        "expect": true,
+        "sinon": true,
+        "chai": true
+      },
+      "env": {
+        "es6": true,
+        "node": true,
+        "mocha": true
+      }
+    }
+  ]
 }
