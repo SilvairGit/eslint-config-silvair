@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-silvair",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SilvairGit/eslint-config-silvair.git",
+  "author": "Karol Kochan <karolkochan@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "lint",
+    "eslint",
+    "eslintconfig",
+    "silvair"
+  ],
+  "peerDependencies": {
+    "eslint": ">= 3"
+  }
+}
