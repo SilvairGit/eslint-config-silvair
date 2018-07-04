@@ -102,6 +102,7 @@
       }
     ],
     "no-console": "off",
+    "no-debugger": "error",
     "no-delete-var": "error",
     "no-eq-null": "error",
     "no-global-assign": "error",
