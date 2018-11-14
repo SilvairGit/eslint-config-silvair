@@ -4,6 +4,9 @@
     "node": true
   },
   "extends": "eslint:recommended",
+  "plugins": [
+    "mocha"
+  ],
   "parserOptions": {
     "ecmaVersion": 2017,
     "ecmaFeatures": {
@@ -90,6 +93,8 @@
       }
     ],
     "new-parens": "error",
+    "mocha/no-exclusive-tests": "error",
+    "mocha/no-skipped-tests": "warn",
     "no-array-constructor": "error",
     "no-cond-assign": [
       "error",
@@ -245,6 +250,14 @@
       "inside"
     ],
     "yoda": "error"
+  },
+  "settings": {
+    "mocha/additionalTestFunctions": [
+      "describeModule"
+    ],
+    "mocha/additionalXFunctions": [
+      "xdescribeModule"
+    ]
   },
   "overrides": [
     {
