@@ -94,7 +94,7 @@
     ],
     "new-parens": "error",
     "mocha/no-exclusive-tests": "error",
-    "mocha/no-skipped-tests": "error",
+    "mocha/no-skipped-tests": "warn",
     "no-array-constructor": "error",
     "no-cond-assign": [
       "error",
