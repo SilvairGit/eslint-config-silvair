@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-silvair",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "main": "index.js",
   "repository": "https://github.com/SilvairGit/eslint-config-silvair.git",
   "author": "Karol Kochan <karolkochan@gmail.com>",
