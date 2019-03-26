@@ -12,7 +12,7 @@
     "silvair"
   ],
   "peerDependencies": {
-    "eslint": ">= 4",
+    "eslint": ">= 5",
     "eslint-plugin-mocha": "^5.2.0"
   }
 }

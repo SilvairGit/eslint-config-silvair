@@ -8,10 +8,7 @@
     "mocha"
   ],
   "parserOptions": {
-    "ecmaVersion": 2017,
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true
-    }
+    "ecmaVersion": 2019
   },
   "rules": {
     "arrow-parens": "error",
